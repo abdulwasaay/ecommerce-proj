@@ -1,0 +1,21 @@
+.swiper-pagination-bullet {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 9999px !important;
+    /* pill shape */
+    background: rgba(255, 255, 255, 0.6) !important;
+    opacity: 1 !important;
+    transform: translate3d(0, 0, 0);
+    transition: all 300ms cubic-bezier(.2, .8, .2, 1) !important;
+    margin: 0 6px !important;
+}
+
+
+/* Active bullet becomes wider */
+.swiper-pagination-bullet-active {
+    width: 30px !important;
+    /* wider active bullet */
+    background: #006aff !important;
+    /* active color (adjust as needed) */
+    height: 10px !important;
+}
